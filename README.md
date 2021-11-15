@@ -16,12 +16,14 @@ The Docker configuration for Calendso is an effort powered by people within the 
 
 Make sure you have `docker` & `docker-compose` installed on the server / system.
 
+Additionally, 2GB of RAM and 2GB swapfile was configured for the successful build.
+
 ## Getting Started
 
 1. Clone calendso-docker
 
     ```bash
-    git clone --recursive https://github.com/calendso/docker.git calendso-docker
+    git clone --recursive https://github.com/PenangScienceCluster/calendso-docker.git calendso-docker
     ```
 
 2. Change into the directory
@@ -37,6 +39,8 @@ Make sure you have `docker` & `docker-compose` installed on the server / system.
     ```bash
     docker-compose up --build
     ```
+
+The site appears to be functional from this stage.
 
 5. Start prisma studio
 
